@@ -14,12 +14,12 @@ body{
     align-items: center;
     color: var(--font-color);
     font: 900 1rem sans-serif;
-    background-image: url(bg.gif);
+    background-image: url(bgg.jpg);
     background-size: cover;
 }
 .container {
-    background-color: rgba(217, 142, 50, 0.567);
-    width: 20vw;
+    background-color: rgba(77, 27, 227, 0.567);
+    width: 40vw;
     padding: 2rem;
     border-radius: 1rem;
     border: 1rem solid transparent;
@@ -45,26 +45,53 @@ input#email{
     margin-top: 0.5rem;
     margin-bottom: 2rem;
     width: 100%;
+    padding: 1.8%;
+    color: var(--font-color);
+    background-color: rgb(64, 0, 255);
+    border: none;
+    border-radius: 1rem;
+    padding-left: 3%;
 }
 input#password {
     margin-top: 0.5rem;
     width: 100%;
+    padding: 1.8%;
+    padding-right: 3rem;
+    color: var(--font-color);
+    background-color: rgb(64, 0, 255);
+    border: none;
+    padding-left: 3%;
+    border-radius: 1rem;
+    
 }
-pass{
+.pass{
     position: relative;
-    width: 100%;
-
+    
 }
 span#monkey{
     position: absolute;
     padding-left: 0.4rem ;
-    padding-top: 0.3rem;
-    padding-right: 40rem;
+    padding-top: 0.6rem;
+    padding-right: 13rem;
     z-index: +2;
-    transform: scale(1.1);
+    transform: scale(1.4);
 }
-pass ::before {
+pass::before {
     position:absolute;
-    
+}
+h5{
+margin: 1rem 1rem;
+}
 
+.Strength {
+    height: 0.7rem;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 1rem;
+}
+.bar {
+    width: 25%;
+    border-radius: 1rem;
+    height: 100%;
+    background-color: rgb(228, 66, 66);
 }
