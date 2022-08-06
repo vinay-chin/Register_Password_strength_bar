@@ -1,0 +1,70 @@
+:root{
+    --font-color : rgb(255, 255, 255);
+}
+*{
+    
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--font-color);
+    font: 900 1rem sans-serif;
+    background-image: url(bg.gif);
+    background-size: cover;
+}
+.container {
+    background-color: rgba(217, 142, 50, 0.567);
+    width: 20vw;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1rem solid transparent;
+    transition: 0.4s ease-in-out;
+    cursor: grab;
+}
+.container:hover {
+    transform: scale(1.06);
+}
+h1{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 1rem;
+    font-weight: 800;
+}
+h2{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 1rem;
+    font-weight: 600;
+}
+input#email{
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+input#password {
+    margin-top: 0.5rem;
+    width: 100%;
+}
+pass{
+    position: relative;
+    width: 100%;
+
+}
+span#monkey{
+    position: absolute;
+    padding-left: 0.4rem ;
+    padding-top: 0.3rem;
+    padding-right: 40rem;
+    z-index: +2;
+    transform: scale(1.1);
+}
+pass ::before {
+    position:absolute;
+    
+
+}
